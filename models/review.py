@@ -1,18 +1,19 @@
 #!/usr/bin/python3
 """
-Module review
-Inherits from BaseModel
+    Defines 'Review' class.
 """
-
 from models.base_model import BaseModel
 
 
 class Review(BaseModel):
+
     """
-    Public class attributes
-        place_id: string - empty string: it will be the Place.id
-        user_id: string - empty string: it will be the User.id
-        text: string - empty string
+        Class to manage review objects
+        Represent a review with a place id, user id and text
+        Attributes:
+            place_id (str): place's id
+            user_id (str): user's id
+            text (str): text of the review
     """
 
     place_id = ""
