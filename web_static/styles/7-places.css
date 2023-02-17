@@ -1,0 +1,36 @@
+/**
+*Updating the specific things on the 7th index page
+**/
+
+i.places{
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+}
+.places h1{
+    font-size: 30px;
+}
+.places-title{
+    padding-top: 30px;
+    margin-bottom: 5px;
+}
+.articles{
+    display: flex;
+    align-items: baseline;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+article{
+    width: 390px;
+    margin: 20px;
+    padding: 20px;
+    border: solid #FF5A5F 1px;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 30px;
+}
+/* articles headings */
+article h2{
+    font-size: 30px;
+    text-align: center;
+}
